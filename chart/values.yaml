@@ -1,0 +1,7 @@
+appName: heroku-website
+imageName: localhost:5000/heroku.com
+replicas: 1
+serviceName: heroku-svc
+sourcePort: 80
+serviceAddress: heroku.com
+servicePort: 8080
